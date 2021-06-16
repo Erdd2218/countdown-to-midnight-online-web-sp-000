@@ -10,7 +10,7 @@ end
 
 def countdown_with_sleep(num)
   while num > 0 
-  sleep (5.seconds) until num == 0 
+  sleep 5.seconds
   return true
   end 
 end 
